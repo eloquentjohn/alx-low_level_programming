@@ -1,18 +1,18 @@
 #include <stdio.h>
 /**
-* main - program that prints the alphabet in lowercase and upper case
+* main - program that prints numbers base ten
 *
 * Return: Always 0.
 */
 int main(void)
 {
-	char letter;
+	int base_ten = 0;
 
-	for (letter = 'a'; letter <= 'z'; letter++)
+	while (base_ten <= 10)
 
 	{
-	if (letter != 'e' && letter != 'q')
-	putchar(letter);
+	putchar(base_ten);
+	 base_ten++;
 	}
 
 	putchar('\n');
