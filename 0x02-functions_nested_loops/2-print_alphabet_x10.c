@@ -1,24 +1,22 @@
 #include "main.h"
 
 /**
-  * print_alphabet - This is the program that prints alphabet ten time
-  *
-  * Return: return 0
-  */
+ * print_alphabet_x10 - print the alphabest 10 times
+ * Return: void here
+ */
+
 void print_alphabet_x10(void)
 {
-	char b;
-	int d = 0
+	char c;
+	int i = 0;
 
-	while (d <= 9)
-	{
+		while (i <= 9)
+		{
 		for (c = 'a'; c <= 'z'; c++)
 		{
 			_putchar(c);
 		}
-
-		_putchar('\n');
-
-		d++;
-	}
+			_putchar('\n');
+			i++;
+		}
 }
