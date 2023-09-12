@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
-  * print_alphabet - this is the program that prints alphabet ten times
+  * print_alphabet - This is the program that prints alphabet ten time
   *
-  * Return: reaturn 0
+  * Return: return 0
   */
-void print_alphabet(void)
+void print_alphabet_x10(void)
 {
-	char c;
-	int i = 0;
+	char b;
+	int d = 0
 
-	while (i <= 9)
+	while (d <= 9)
 	{
 		for (c = 'a'; c <= 'z'; c++)
 		{
@@ -19,6 +19,6 @@ void print_alphabet(void)
 
 		_putchar('\n');
 
-		i++;
+		d++;
 	}
 }
