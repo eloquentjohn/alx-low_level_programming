@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * swap_int = this is  Function name
+ * swap_int - this is the program function name
  *
  * @a: first pointer
  * @b: second pointer
@@ -9,8 +9,9 @@
  */
 void swap_int(int *a, int *b)
 {
-int C;
-*c = *a;
-*a = *b;
-*b = *C;
+	int c;
+
+	c = *a;
+	*a = *b;
+	*b = c;
 }
