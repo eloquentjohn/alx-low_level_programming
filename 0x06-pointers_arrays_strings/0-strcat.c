@@ -1,12 +1,11 @@
 #include "main.h"
 
-
 /**
- * _strcat - function program
- * @dest: input value 
- * @src: input value
- * Return: 0
- */
+* _strcat - function program
+* @dest: input value 
+* @src: input value
+* Return: 0
+*/
 char *_strcat(char *dest, char *src)
 {
 	int c;
