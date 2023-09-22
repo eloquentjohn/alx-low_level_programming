@@ -10,17 +10,17 @@
 
 char *leet(char *n)
 {
-	int c, r;
+	int k, r;
 	char s1[] = "aAeEoOtTlL";
 	char s2[] = "4433007711";
-	
-	for (c = 0; n[c] != '\0'; c++)
+
+	for (k = 0; n[k] != '\0'; k++)
 	{
 	for (r = 0; r < 10; r++)
 	{
-	if (n[c] == s1[r])
+	if (n[k] == s1[r])
 	{
-	n[c] = s2[r];
+	n[k] = s2[r];
 	}
 	}
 	}
